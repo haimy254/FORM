@@ -12,4 +12,5 @@ max-width: 530px;
 }
 .first>.second{
     text-align:right;
+    float: right;
 }
