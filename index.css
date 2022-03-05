@@ -7,11 +7,5 @@ body{
     color: rgb(151, 85, 85);
     border: 100px 100vh;
 }
-.first{
-padding: rem;
-max-width: 530px;
-}
-.first>.second{
-    text-align:right;
-    float: right;
-}
+
+
