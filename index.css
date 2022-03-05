@@ -3,8 +3,10 @@
     margin: 0;
 }
 body{
-    background-color: rgb(19, 165, 75);
+    background-color: rgb(58, 207, 226);
     color: rgb(151, 85, 85);
+    border: 100px 100vh;
+    box-sizing: content-box;
 }
 .first{
 padding: rem;
