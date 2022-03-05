@@ -6,3 +6,7 @@ body{
     background-color: rgb(19, 165, 75);
     color: rgb(151, 85, 85);
 }
+.first{
+padding: rem;
+max-width: 530px;
+}
