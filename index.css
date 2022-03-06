@@ -6,6 +6,39 @@ body{
     background-color: rgb(151, 77, 8);
     color: rgb(14, 2, 2);
     border: 100px 100vh;
+    font-size: 16px;
 }
-
-
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .my-form {
+    border: 1px solid rgb(39, 15, 15);
+    padding: 5rem;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .form-group > label {
+    font-size: 0.8rem;
+  }
+  .form-group > input {
+    padding: 5px;
+    border-radius: 4px;
+    width: 50%;
+    font-size: 0.8rem;
+    color: rgb(168, 168, 168);
+  }
+  form-group > p {
+    font-size: 0.8rem;
+  }
+  
+  .form-group > input[type="radio"] {
+    display: inline;
+  }
+  
