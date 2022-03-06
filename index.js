@@ -1,9 +1,11 @@
 
-const form = document.querySelector("#myform");
+let form = document.querySelector("#my-form");
 
-form.addEventListener("submit"), (event) => {
-    //prevent refresh on submitting
-    event.preventDefault(); 
+form.addEventListener("submit", akanName);
+function akanName (event)
+{
+       //prevent refresh on submitting
+       event.preventDefault(); 
 
     //get all form value 
     let year=document. getElementById("year").value;
@@ -11,7 +13,7 @@ form.addEventListener("submit"), (event) => {
     let day = document.getElementById("day").value;
     let male = document.getElementById("male").checked;
     let famale= document.getElementById("female").checked;
-    let result = document.getElementById("result");
+    let result = document.getElementsByClassName("result");
 
 //validation checks for empty values
 if (!year || !month || !day || (!male && !female)) {
@@ -136,6 +138,7 @@ if (!year || !month || !day || (!male && !female)) {
 
       default:
         break;
+     
     }
   }
 }
