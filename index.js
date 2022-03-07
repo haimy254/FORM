@@ -11,9 +11,9 @@ function akanName (event)
     let year=document. getElementById("year").value;
     let month = document.getElementById("month").value;
     let day = document.getElementById("day").value;
-    let male = document.getElementById("male").checked;
-    let famale= document.getElementById("female").checked;
-    let result = document.getElementsByClassName("result");
+    let male = document.getElementById("male");
+    let famale= document.getElementById("female");
+    let result = document.getElementById("result");
 
 //validation checks for empty values
 if (!year || !month || !day || (!male && !female)) {
@@ -74,30 +74,38 @@ if (!year || !month || !day || (!male && !female)) {
       case 1:
         result.textContent =
           "you were born on Sunday your Akan name is " + maleAkanNames[0];
+
+          console.log( "you were born on Sunday your Akan name is " + maleAkanNames[0])
         break;
       case 2:
         result.textContent =
           "you were born on Monday your Akan name is " + maleAkanNames[1];
+          console.log( "you were born on monday your Akan name is " + maleAkanNames[1])
         break;
       case 3:
         result.textContent =
           "you were born on Tuesday your Akan name is " + maleAkanNames[2];
+          console.log( "you were born on tuesday your Akan name is " + maleAkanNames[2])
         break;
       case 4:
         result.textContent =
           "you were born on Wednesday your Akan name is " + maleAkanNames[3];
+          console.log( "you were born on wenesday your Akan name is " + maleAkanNames[3])
         break;
       case 5:
         result.textContent =
           "you were born on Thursday your Akan name is " + maleAkanNames[4];
+          console.log( "you were born on thursday your Akan name is " + maleAkanNames[4])
         break;
       case 6:
         result.textContent =
           "you were born on Friday your Akan name is " + maleAkanNames[5];
+          console.log( "you were born on friday your Akan name is " + maleAkanNames[5])
         break;
       case 7:
         result.textContent =
           "you were born on Saturday your Akan name is " + maleAkanNames[6];
+          console.log( "you were born on saturday your Akan name is " + maleAkanNames[6])
         break;
 
       default:
@@ -110,35 +118,42 @@ if (!year || !month || !day || (!male && !female)) {
       case 1:
         result.textContent =
           "you were born on Sunday your Akan name is " + femaleAkanNames[0];
+          console.log("you were born on Sunday your Akan name is " + femaleAkanNames[0])
         break;
       case 2:
         result.textContent =
           "you were born on Monday your Akan name is " + femaleAkanNames[1];
+          console.log("you were born on monday your Akan name is " + femaleAkanNames[1])
         break;
       case 3:
         result.textContent =
           "you were born on Tuesday your Akan name is " + femaleAkanNames[2];
+          console.log("you were born on tuesday your Akan name is " + femaleAkanNames[2])
         break;
       case 4:
         result.textContent =
           "you were born on Wednesday your Akan name is " + femaleAkanNames[3];
+          console.log("you were born on wenesday your Akan name is " + femaleAkanNames[3])
         break;
       case 5:
         result.textContent =
           "you were born on Thursday your Akan name is " + femaleAkanNames[4];
+          console.log("you were born on thursday your Akan name is " + femaleAkanNames[4])
         break;
       case 6:
         result.textContent =
           "you were born on Friday your Akan name is " + femaleAkanNames[5];
+          console.log("you were born on friday your Akan name is " + femaleAkanNames[5])
         break;
       case 7:
         result.textContent =
           "you were born on Saturday your Akan name is " + femaleAkanNames[6];
+          console.log("you were born on saturday your Akan name is " + femaleAkanNames[6])
         break;
 
       default:
         break;
-     
+        alert ["this is your akan name"]
     }
   }
 }
